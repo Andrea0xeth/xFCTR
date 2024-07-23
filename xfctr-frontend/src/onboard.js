@@ -3,7 +3,7 @@ import walletConnectModule from '@web3-onboard/walletconnect';
 import injectedWalletsModule from '@web3-onboard/injected-wallets';
 
 const walletConnect = walletConnectModule({
-  projectId: '3e39ef81d0c1fcc9614e45835803ca72' // Sostituisci con il tuo projectId
+  projectId: '3e39ef81d0c1fcc9614e45835803ca72' // Replace with your projectId
 });
 
 const injectedWallets = injectedWalletsModule();
@@ -18,7 +18,7 @@ const onboard = Onboard({
       id: '0xa4b1', // Arbitrum One
       token: 'ETH',
       label: 'Arbitrum One',
-      rpcUrl: 'https://arb1.arbitrum.io/rpc' // RPC URL per Arbitrum One
+      rpcUrl: 'https://arb1.arbitrum.io/rpc' // RPC URL for Arbitrum One
     }
   ],
   appMetadata: {
@@ -33,4 +33,3 @@ const onboard = Onboard({
 });
 
 export default onboard;
-
