@@ -21,7 +21,7 @@
     "react-scripts": "5.0.1",
     "@web3-onboard/core": "^0.10.0",
     "@web3-onboard/walletconnect": "^0.10.0",
-    "@web3-onboard/injected-wallets": "^0.10.0",
+    "@web3-onboard/injected-wallets": "^0.10.0"
   },
   "devDependencies": {
     "hardhat": "^2.10.2"
