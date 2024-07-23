@@ -41,6 +41,7 @@ contract LockAndVote is Ownable {
         xfctrToken.mint(msg.sender, amount);
     }
 
+
     function vote(uint256 proposalId, bool support) external onlyOwner {
         voteContract.vote(proposalId, support);
     }
